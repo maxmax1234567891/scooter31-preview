@@ -47,3 +47,8 @@ html{overflow-anchor:none}
 .product h2{margin:0 0 9px}
 .product .tags,.product .stock{display:none}
 @media(max-width:350px){.product .price{font-size:22px}.product-model{font-size:12px;min-height:34px}.product-size{font-size:12px}}
+
+/* Review labels stay legible and never cover the photograph. */
+.promo-badge{font-size:11px;padding:5px 8px;border-radius:6px;line-height:1.1}
+.card-meta{min-height:29px;margin:2px 0 4px}
+@media(max-width:350px){.promo-badge{font-size:10px;padding:5px 6px}}
