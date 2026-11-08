@@ -69,11 +69,9 @@ html{overflow-anchor:none}
 .sample-help{background:var(--panel);border-radius:14px;padding:16px}
 @media(max-width:540px){.sample-product .detail-photo{max-height:360px}.sample-product .detail-layout{gap:18px}}
 
-/* Labels occupy reserved photo headroom, away from the tread. */
+/* Corner labels overlay the photo without changing its original scale. */
 .image-area{position:relative}
 .photo-badge{position:absolute;left:8px;top:7px;z-index:3;pointer-events:none;max-width:calc(100% - 52px)}
-.product .media{padding-top:30px}
-.product .media img{height:100%;max-height:100%}
 .card-meta{justify-content:flex-end;min-height:24px;margin:0}
 .price.sale-price{color:var(--yellow)}
 .detail-buy .price{font-size:30px;font-weight:800}
