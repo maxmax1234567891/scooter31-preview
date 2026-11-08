@@ -39,3 +39,11 @@ html{overflow-anchor:none}
 .price-row{flex-wrap:wrap;gap:3px 6px;align-items:baseline}
 .product .old-price{font-size:11px;color:#969b91}
 .product .discount{font-size:10px;border-radius:4px;padding:3px 4px;background:#f4e82e;color:#171810;font-weight:700}
+
+/* Clear hierarchy without increasing card height. */
+.product .price{font-size:24px;line-height:1.2;font-weight:800;letter-spacing:-.5px}
+.product-size{font-size:13px;line-height:1.35;font-weight:550;color:#b9c0b4;margin:6px 0 3px}
+.product-model{font-size:13px;line-height:1.4;min-height:37px;font-weight:550;color:#f4f5ef}
+.product h2{margin:0 0 9px}
+.product .tags,.product .stock{display:none}
+@media(max-width:350px){.product .price{font-size:22px}.product-model{font-size:12px;min-height:34px}.product-size{font-size:12px}}
