@@ -26,3 +26,16 @@
 
 /* Keep the saved catalogue offset stable while the compact header changes height. */
 html{overflow-anchor:none}
+
+/* One quiet label per card, below the photograph, never on the tread. */
+.card-meta{display:flex;align-items:center;justify-content:space-between;gap:3px;min-height:28px;margin:1px 0 3px}
+.promo-badge{display:inline-flex;align-items:center;border-radius:5px;padding:4px 6px;font-size:9px;line-height:1;font-weight:650;white-space:nowrap}
+.promo-badge.hit{background:#f4e82e;color:#171810}
+.promo-badge.new{background:#22382f;color:#c8ead7}
+.promo-badge.sale{background:#3c2e20;color:#f5d49d}
+.card-compare{padding:4px 0 4px 3px;min-height:28px;gap:3px;border:0;background:transparent;color:#aeb3a9;font-size:9px;white-space:nowrap}
+.card-compare svg{width:13px;height:13px;flex-shrink:0}
+.card-compare[aria-pressed="true"]{color:var(--yellow)}
+.price-row{flex-wrap:wrap;gap:3px 6px;align-items:baseline}
+.product .old-price{font-size:11px;color:#969b91}
+.product .discount{font-size:10px;border-radius:4px;padding:3px 4px;background:#f4e82e;color:#171810;font-weight:700}
